@@ -1,0 +1,28 @@
+.main {
+    background-color: rgb(238, 237, 224);
+    padding-left: 4em;
+    color: rgb(0, 0, 0);
+}
+
+.question {
+    border: 25px solid rgb(92, 102, 96);
+    margin-top: 25px;
+    padding: 25px;
+}
+
+#after_submit {
+    visibility: hidden;
+    background: #ff5459;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.bottom {
+    background-color: rgb(212, 87, 104);
+    text-align: right;
+    color: rgb(151, 151, 221);
+}

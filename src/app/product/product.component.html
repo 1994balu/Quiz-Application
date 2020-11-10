@@ -1,0 +1,23 @@
+<div>
+    <h3>Please note you need score above 4 in order to pass. Good Luck!</h3>
+    <form [formGroup]="form" (ngSubmit)="submit()">
+        <div *ngFor="let pp of productInfo">
+            <label> {{pp.name}}</label>
+            <div class="col-6 flex" *ngFor="let ch of pp.choice; let i = index">
+                <input type="radio" value="{{i}}" formControlName={{pp.name}} name="{{pp.name}}">
+                <p>{{ch}}</p>
+            </div>
+        </div>
+     
+    <!-- <input type ="button"  value="submit"></button> -->
+    <input type="button" value="Submit Quiz"
+    (click)="submit()"/>
+    <div>
+        {{selectedDay}}
+    </div>
+    <div>
+        {{finalmsg}}
+    </div>
+    </form>
+
+</div>

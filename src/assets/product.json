@@ -1,0 +1,66 @@
+ [
+    {
+      "name":"1. Was the FIFA World Cup played in 2014?",
+      "choice" : [
+        "false",
+        "true"
+      ],
+      "correctans":1
+    },
+    {
+      "name":"2. Who was France youngest player?",
+      "choice" : [
+        "Pogba",
+        "Mbappe"
+      ], 
+      "correctans": 1
+    },
+    {
+      "name":"3. France played the final against which team?",
+      "choice" : [
+       "Belgium",
+       "Croatia"
+      ],
+      "correctans": 1
+    },
+    {
+      "name":"4. Which team score more goals in the final?",
+      "choice" : [
+       "France",
+       "Croatia"
+      ],
+      "correctans": 1
+    },
+    {
+      "name":"5. Which team does Ronaldo play for?",
+      "choice" : [
+       "Spain",
+       "Portugal"
+      ],
+      "correctans": 1
+    },
+    {
+      "name":"6. Where will the next world cup be held?",
+      "choice" : [
+        "China",
+        "Qatar"
+      ],
+      "correctans": 0
+    },
+    {
+      "name":"7. Did Germany qualified for the semi-finals?",
+      "choice" : [
+        "true",
+        "false"
+      ],
+      "correctans": 1
+    },
+    {
+      "name":"8. How many times has France won world cup?",
+      "choice" : [
+        "once",
+        "twice"
+      ],
+      "correctans": 0
+    }
+  ]

@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "name":"1. Was the FIFA World Cup was played in 2019?",
+      "choice" : [
+        {
+          "id": 1,
+          "name":"true",
+          "isCorrect":"true"
+        },
+        {
+          "id":2,
+          "name":"false",
+          "isCorrect":"false"
+        }
+      ] 
+    },
+    {
+      "name":"2. France youngest player was Mbappe?",
+      "choice" : [
+        {
+          "id":1,
+          "name":"true",
+          "isCorrect":"false"
+        },
+        {
+          "id":2,
+          "name":"false",
+          "isCorrect":"true"
+        }
+      ] 
+    },
+    {
+      "name":"3. Final was played between France and Croatia?",
+      "choice" : [
+        {
+          "id":1,
+          "name":"true",
+          "isCorrect":"false"
+        },
+        {
+          "id":2,
+          "name":"false",
+          "isCorrect":"true"
+        }
+      ] 
+    }
+  ]
+}

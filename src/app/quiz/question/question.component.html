@@ -1,0 +1,40 @@
+<div>
+    <p><b>{{ques.text}}</b></p>
+<button type="button" class="btn btn-info btn-xs" (click) = singleclicked()>hint</button>
+<div class="row alert alert-warning" role="alert" *ngIf = "show">
+    <div class="col-md-1">
+</div>
+<div class="col-md-10">
+    <span class="glyphicon glyphicon-info-sign"></span>
+    <strong>{{ques.hints[i]}}</strong>&nbsp;
+</div>
+</div>
+
+<div class="row-options">
+    <div class="col-mdp-12">
+        <div class *ngFor = "let choice of ques.choice">
+            <label>
+                <input #inp type="radio" name="option" (click) = "clicked(choice.isCorrect)">
+                {{choice.text}}<br>
+            </label>
+        </div>
+            <div class="row alert alert-success" role="alert" *ngIf = "correct">
+                
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <strong>Absolutely Right!</strong>
+                
+            </div>
+            <div class="row alert alert-danger" role="alert" *ngIf = "wrong">
+                
+                    <span class="glyphicon glyphicon-remove"></span>
+                    <strong>Oops! Wrong answer!</strong>
+                
+            </div>
+        </div>
+    </div>
+
+
+</div>
+        
+
+            
